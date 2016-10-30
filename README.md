@@ -1,11 +1,11 @@
 #README#
 
 ##Info##
-This is an efficient C code to compute the similarity between two -possibly overlapping- community structures. 
+This is an efficient C code to compute the similarity between two -possibly overlapping- community structures.  
 More generally it evaluates the similarity between two sets of sets.
 
-Given two sets of communities C1 and C2, for each community c1 in C1, the maximum of its similarity to any community in the second set is computed. That is, the program computes $\max_{c2 \in C2}(sim(c1,c2))$. It then computes the average of these maximum similarity scores that is $\frac{1}{|C1|} \sum_{c1 \in C1} \max_{c2\in C2} sim(c1,c2)$. 
-It then do reverse, that is compute $\frac{1}{|C2|} \sum_{c2 \in C2} \max_{c1\in C1} sim(c1,c2)$ and then returns the harmonic mean between these two quantities. 
+Given two sets of communities C1 and C2, for each community c1 in C1, the maximum of its similarity to any community in the second set is computed. That is, the program computes $\max_{c2 \in C2}(sim(c1,c2))$. It then computes the average of these maximum similarity scores that is $\frac{1}{|C1|} \sum_{c1 \in C1} \max_{c2\in C2} sim(c1,c2)$.  
+It then do reverse, that is compute $\frac{1}{|C2|} \sum_{c2 \in C2} \max_{c1\in C1} sim(c1,c2)$ and then returns the harmonic mean between these two quantities.  
 The similarity score used is the f1-score such as described in [1]. See [2] for more details (in French).
 
 ##To compile##
