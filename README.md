@@ -34,6 +34,7 @@ Or type "bash test.sh coms1.txt coms2.txt" if you directly want to have all thre
 ##Initial contributors##
 
 Maximilien Danisch  
+Technical consultant: Noe Gaumont  
 July 2015  
 http://bit.ly/maxdan94  
 maximilien.danisch@telecom-paristech.fr
