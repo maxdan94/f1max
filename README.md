@@ -24,7 +24,7 @@ i0 i1 i2 ... in is the list of the nodes in the community.
 
 type "./f1max coms2.txt coms1.txt" to do reverse, you can then compute the average or harmonic mean of both values to evaluate how both sets are similar.
 
-Or type "bash test.sh coms1.txt coms2.txt" if you directly want to have all three values.
+Or type "bash test.sh coms1.txt coms2.txt" if you directly want to have all four values.
 
 ##References##
 
