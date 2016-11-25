@@ -28,7 +28,7 @@ Or type "bash test.sh coms1.txt coms2.txt" if you directly want to have all four
 
 ##References##
 
-[1] Overlapping Community Detection Using Seed Set Expansion. Joyce Jiyoung Whang, David F. Gleich, Inderjit S. Dhillon. CIKM2013 page 7.  
+[1] J. Yang and J. Leskovec. Overlapping community detection at scale: a nonnegative matrix factorization approach. WSDM2013.  
 [2] Danisch M., Guillaume J.-L., Le Grand B. (2015). Déplier la structure communautaire d’un réseau en mesurant la proximité aux représentants de communauté
 
 ##Initial contributors##
