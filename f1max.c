@@ -61,12 +61,12 @@ bool readlinecom(FILE* file,community* com){
 
 	com->s=0;
 	while(fscanf(file,"%u%c",com->nodes+com->s,&c)==2){
-		if (c=='\n') {
-			return 1;
-		}
 		if ( ++(com->s) == com->smax) {
 			com->smax+=SCOM;
 			com->nodes=realloc(com->nodes,com->smax*sizeof(unsigned));
+		}
+		if (c=='\n') {
+			return 1;
 		}
 	}
 	return 0;
